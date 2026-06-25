@@ -1,0 +1,12 @@
+{
+  "name": "catanddogproductions.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static responsive archive for catanddogproductions.com.",
+  "scripts": {
+    "build": "node tools/build-static-site.js",
+    "check": "node tools/check-static-site.js",
+    "deploy:s3": "aws s3 sync dist/ s3://catanddogproductions.com --delete",
+    "serve": "npx http-server dist -p 8080"
+  }
+}

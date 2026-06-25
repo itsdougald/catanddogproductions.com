@@ -1,0 +1,37 @@
+
+	<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://www.catanddogproductions.com/</loc>
+      <lastmod>2012-06-30</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>http://www.catanddogproductions.com/sport/porkies.php</loc>
+      <lastmod>2013-06-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>http://www.catanddogproductions.com/australia.php</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+   </url>
+   <url>
+      <loc>http://www.catanddogproductions.com/travel/holidays/index.php</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+   <url>
+      <loc>http://www.catanddogproductions.com/travel/backpacking/index.php</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+   <url>
+      <loc>http://www.catanddogproductions.com/photos.php</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+</urlset>
+	 

@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+Thumbs.db
+npm-debug.log*
+
+# Legacy dynamic app/admin files are not part of the static S3 site.
+blog/
+jquery/
+/index.html
+*.psd

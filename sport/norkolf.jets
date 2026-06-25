@@ -1,0 +1,42 @@
+<?php
+/*
+ * @Author The Dog 
+ * @Created 6 Feb 2007
+ * 
+ * I am the page describing cricket down under!
+ */
+?>
+<?php 
+ 	include '../application.php'; 
+	include $ROOT.'/includes/header.php'; 
+?>	
+<body id="catanddog" class="homepage">
+<?php
+	include $ROOT.'/includes/tab.php'; 
+ 	include $ROOT.'/includes/side.php'; ?>
+
+<div id="mainContent">
+	
+<h2>Norfolk Jets</h2>
+<h3>2009/2010 Season</h3>
+<strong>Match 1</strong> Bowling: O: 4, W: 2, R: 34. Batting: DNB<br/>
+<strong>Match 2</strong> Bowling: O: 3, W: 0, R: 24. Batting: 16<br/>
+<strong>Match 3</strong> Bowling: O: 4, W: 2, R: 18. Batting: DNB<br/>
+<br/>
+	<h2>The Ashes</h2>
+	<h3>2009</h3>
+	<p>What a year and what a great time to be in Australia!</p>
+	<h3>2006/2007</h3>
+	<p>What a bad year and what a bad time to be in Australia!</p>
+	<h3>2005</h3>
+	<p>What a year and what a great time to be in Australia!</p>
+	<hr class="hide">
+      </div>
+      <!-- closes #mainContent-->
+    </div>
+    <!-- closes #mBody-->
+  </div>
+ 
+   
+  <!-- footer  -->
+  <?php include $ROOT.'/includes/footer.php'; ?>
