@@ -3,6 +3,7 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "..");
 const dist = path.join(root, "dist");
+const assetVersion = "20260626-responsive";
 
 const pageRoots = ["."];
 
@@ -219,7 +220,7 @@ function renderPage({ title, content, relPath }) {
   <title>${escapeHtml(title)} | Cat And Dog Productions</title>
   <meta name="description" content="${description}">
   <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/static/site.css">
+  <link rel="stylesheet" href="/static/site.css?v=${assetVersion}">
 </head>
 <body>
   <header class="site-header">
